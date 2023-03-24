@@ -15,7 +15,7 @@ spec:
     namespace: default
     server: 'https://kubernetes.default.svc'
   source:
-    repoURL: 'https://github.com/kamilzaborowski/Frontend.git'
+    repoURL: 'https://github.com/kamilzaborowski/ArgoCD.git'
     path: frontend
     targetRevision: HEAD
   project: default
