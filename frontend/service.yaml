@@ -5,7 +5,7 @@ metadata:
   labels:
     app: frontend-service
   name: frontend-service
-  namespace: frontend
+  namespace: argocd
 spec:
   ports:
   - name: 5000-5000
