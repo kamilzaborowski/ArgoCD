@@ -27,4 +27,6 @@ spec:
         ports:
         - containerPort: 5000
         resources: {}
+      imagePullSecrets:
+      - name: regcred
 status: {}
